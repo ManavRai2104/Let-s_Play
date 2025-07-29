@@ -1,0 +1,5 @@
+@keyframes animate {
+    100% {
+        transform: scaleX(1);
+    }
+}

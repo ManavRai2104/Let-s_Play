@@ -12,18 +12,36 @@ body {
     background-color: #050e2d;
 }
 
+
+/* Scroll Bar */
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb 
+{
+    background: #1aeeef;
+    border-radius: 6px;
+}
+
 header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 7px 80px;
+    padding: 7px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #1b2141;
+   
     transition: 0.5s;
     z-index: 1000;
+}
+
+ header.sticky {
+    background: #1b2141;
+    box-shadow:  0 5px 10px #1b2141 ;;
 }
 
 header .logo {
@@ -144,4 +162,194 @@ header .action .searchbox input {
 
 .banner .bg img {
     width: 600px;
+}
+
+
+
+
+
+
+.about {
+    position: relative;
+    width: 100%;
+    min-height: 75vh;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about .contentBx {
+    width: 50%;
+    margin: 20px;
+}
+
+.about .contentBx h2 {
+    font-size: 3em;
+    font-weight: 700;
+    color: #fff;
+}
+
+.about .contentBx p {
+    max-width: 600px;
+    text-align: justify;
+    color: #dbd9d9;
+}
+
+ .about .contentBx a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: 1px solid #1aeeef;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.about .contentBx a:hover {
+    background: #1aeeef;
+    border: none;
+    color: #050e2d;
+    box-shadow: 0 0 10rem #1aeeef;
+}
+
+
+
+
+
+
+
+
+.games {
+    padding: 0 100px;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px auto;
+}
+
+.games h2 {
+    color: #fff;
+    margin: 10px 0;
+}
+
+.games ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.games ul li {
+    list-style: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.games ul li.active {
+    background: #1aeeef;
+    color: #050e2d;
+    box-shadow: 0 0 10px #1aeeef;
+}
+
+.games .cardbx {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.games .cardbx .card {
+    width: 280px;
+    border-radius: 10px;
+    margin: 20px 40px;
+    background: #1b2141;
+    overflow: hidden;
+}
+
+.games .cardbx .card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.games .cardbx .card .content {
+    padding: 0.8rem;
+}
+
+.games .cardbx .card .content h4 {
+    color: #fff;
+    margin: 1rem 0;
+}
+
+.games .cardbx .card .progress-line {
+    position: relative;
+    height: 0.8rem;
+    width: 100%;
+    background: #35407e;
+    margin-bottom: 1rem;
+    border-radius: 0.7rem;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 0.7s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+.games .cardbx .card .progress-line span {
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    border-radius: 0.6rem;
+    background: #1aeeef;
+    box-shadow: 0 0 0.7rem #1aeeef;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 0.7s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+.games .cardbx .card .info {
+    border-top: 0.1rem solid #35407e;
+    padding: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.games .cardbx .card .info p {
+    font-size: 1em;
+    color: #fff;
+}
+
+.games .cardbx .card .info p span {
+    color: #1aeeef;
+}
+
+.games .cardbx .card .info a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: 1px solid #1aeeef;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.games .cardbx .card .info a:hover {
+    background: #1aeeef;
+    border: none;
+    color: #050e2d;
+    box-shadow: 0 0 10rem #1aeeef;
+}
+.games .cardbx .card.hide {
+    display: none;
 }
