@@ -80,3 +80,68 @@ header .action .searchbox input {
     font-size: 1em;
     color: #222;
 }
+
+
+
+
+
+
+
+.banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .bg {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .bg .content {
+    width: 50%;
+    height: 100%;   
+}
+
+.banner .bg .content h2 {
+    font-size: 3.8em;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.banner .bg .content p {
+    font-size: 0.9em;
+    color: #dbd9d9;
+    letter-spacing: 1px;
+}
+
+.banner .bg .content a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: 1px solid #1aeeef;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.banner .bg .content a:hover {
+    background: #1aeeef;
+    border: none;
+    color: #050e2d;
+    box-shadow: 0 0 10rem #1aeeef;
+}
+
+.banner .bg img {
+    width: 600px;
+}
