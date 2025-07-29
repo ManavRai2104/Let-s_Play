@@ -6,6 +6,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins' , sans-serif;
+    scroll-behavior:smooth;
 }
 
 body {
@@ -336,7 +337,7 @@ header .action .searchbox input {
 .games .cardbx .card .info a {
     display: inline-block;
     padding: 10px 20px;
-    margin: 20px 0;
+    margin: 10px 0;
     border: 1px solid #1aeeef;
     text-decoration: none;
     font-weight: 700;
@@ -419,7 +420,7 @@ header .action .searchbox input {
 .tournaments .boxBx .box .content .watch {
     display: inline-block;
     padding: 10px 20px;
-    margin: 20px 0;
+    margin: 10px 0;
     background: #1aeeef;
     text-decoration: none;
     font-weight: 700;
@@ -438,7 +439,7 @@ header .action .searchbox input {
 .tournaments .boxBx .box .content .join {
     display: inline-block;
     padding: 10px 20px;
-    margin: 20px 0;
+    margin: 10px 0;
     border: 1px solid #1aeeef;
     text-decoration: none;
     font-weight: 700;
@@ -451,4 +452,136 @@ header .action .searchbox input {
     border: none;
     color: #050e2d;
     box-shadow: 0 0 10rem #1aeeef;
+}
+
+
+
+
+
+
+
+
+.contact {
+    padding: 1.1rem 12.5rem;
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact img {
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+    border-radius: 0.7rem;
+}
+
+.contact .form {
+    width: 50%;
+    margin: 1.9rem;
+}
+
+.contact .form h1 {
+    color: #fff;
+}
+
+.contact .form .inputBx {
+    margin: 0.7rem 0;
+
+}
+
+.contact .form .inputBx p {
+    color: #fff;
+}
+
+.contact .form .inputBx input,
+.contact .form .inputBx textarea{
+    border: none;
+    outline: none;
+    padding: 0.8rem;
+    width: 100%;
+    color: #fff;
+    background: #1b2141;
+    min-height: 1rem;
+    font-size: 1em;
+}
+
+.contact .form .inputBx textarea {
+    height: 9.4rem;
+}
+
+.contact .form .inputBx input[type="submit"] {
+    display: inline-block;
+    padding: 0.7rem 1.1rem;
+    margin: 1rem 0;
+    outline: none;
+    background: transparent;
+    border: 1px solid #1aeeef;
+    text-decoration: none;
+    font-weight: 700;
+    width: 150px;
+    border-radius: 5px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.contact .form .inputBx input[type="submit"]:hover {
+    background: #1aeeef;
+    border: none;
+    color: #050e2d;
+    box-shadow: 0 0 10rem #1aeeef;
+}
+
+
+
+
+footer {
+    padding: 10px 100px;
+}
+
+footer .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .info .logo {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+footer .info  p {
+    color: #fff;
+}
+
+footer .info  ul {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .info  ul li {
+    list-style: none;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #1aeeef;
+}
+footer .info  ul li:hover {
+    background: #1aeeef; 
+    border: none;
+    box-shadow: 0 0 10px #1aeeef;
+}
+footer .info i {
+    color: #fff !important;
+    font-size: 1.5rem;
 }
