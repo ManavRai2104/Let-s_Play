@@ -6,7 +6,7 @@ A fully responsive gaming website featuring live tournaments, popular games, and
 
 ## 🌐 Live Demo
 
-👉 [View Live Preview](/Users/manav/Desktop/Let-s_Play/screenshorts/Home-Page.jpg)  
+👉 [View Live Preview](https://manavrai2104.github.io/Let-s_Play/)
 
 
 ---
