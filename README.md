@@ -6,16 +6,12 @@ A fully responsive gaming website featuring live tournaments, popular games, and
 
 ## 🌐 Live Demo
 
-👉 [View Live](https://manavrai2104.github.io/Let-s_Play/)  
-_(Replace with your GitHub Pages or deployment link)_
+👉 [View Live Preview](/Users/manav/Desktop/Let-s_Play/screenshorts/Home-Page.jpg)  
+
 
 ---
 
 
-## 🖼️ Screenshorts
-
-### 💻 Home Page
-![Home Page] (screenshorts/Home-Page.jpg)
 
 ---
 
@@ -28,7 +24,7 @@ Gamers-Website/
 ├── main.js                 # JavaScript for interactivity
 ├── README.md               # Project documentation
 └── Assets/                 # All images and assets used
-|__ Screenshorts            # All The Website ScreenShorts
+
 
 
 ---
@@ -52,8 +48,6 @@ Gamers-Website/
 Media queries handle devices:
 
 - `> 1024px`: Desktop
-- `768px – 1024px`: Tablets
-- `< 768px`: Mobile
 
 Tested on:
 - Chrome
