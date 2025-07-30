@@ -17,7 +17,7 @@ A fully responsive gaming website featuring live tournaments, popular games, and
 
 ## 📁 Project Structure 
 Gamers-Website/<br>
-│<br>
+ │<br>
 ├── index.html              # Main HTML file <br>
 ├── style.css               # Main CSS file (with media queries)<br>
 ├── keyFrames.css           # CSS animations (optional)<br>
