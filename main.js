@@ -5,6 +5,40 @@ window.addEventListener('scroll' , function(){
 });
 
 
+
+
+
+
+
+
+
+
+
+// Responsive Nav-bar //
+
+    function toggleMenu (){
+        const toggleMenu = 
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*     This is Now to Filter the Game Cards.    */
 let list = document.querySelectorAll('.list');
 let card = document.querySelectorAll('.card');
@@ -31,3 +65,7 @@ for(let i = 0; i<list.length; i++) {
         }
     })
 }
+
+
+
+
